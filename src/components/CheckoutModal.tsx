@@ -16,8 +16,7 @@ export const CheckoutModal: React.FC<CheckoutModalProps> = ({ isOpen, onClose })
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    if (!parentName || !parentEmail) return;
-    setIsSuccess(true);
+    window.location.href = 'https://pay.kirvano.com/b604abf7-4440-4e01-8fcd-b428a3893cd7';
   };
 
   return (
@@ -50,7 +49,7 @@ export const CheckoutModal: React.FC<CheckoutModalProps> = ({ isOpen, onClose })
               <div className="bg-white/5 p-4 rounded-2xl border border-sky-300/20 space-y-2">
                 <div className="flex items-center justify-between font-syne font-bold text-sm">
                   <span className="text-white">Cogno Kids® + 3 Bônus</span>
-                  <span className="text-[#38BDF8]">R$ 47,00</span>
+                  <span className="text-[#38BDF8]">2x R$ 5,96 ou R$ 10,99</span>
                 </div>
                 <div className="text-xs text-sky-100/80 space-y-1">
                   <p className="flex items-center gap-1">
@@ -131,7 +130,7 @@ export const CheckoutModal: React.FC<CheckoutModalProps> = ({ isOpen, onClose })
                   type="submit"
                   className="w-full btn-shimmer bg-gradient-to-r from-[#BAE6FD] via-[#38BDF8] to-[#0284C7] text-[#0B192C] font-syne font-extrabold text-sm sm:text-base py-3.5 rounded-xl shadow-lg shadow-sky-500/20 mt-2"
                 >
-                  FINALIZAR INSCRIÇÃO POR R$ 47,00
+                  FINALIZAR INSCRIÇÃO • 2x R$ 5,96 OU R$ 10,99 À VISTA
                 </button>
 
                 <p className="text-[10px] text-sky-200/70 text-center flex items-center justify-center gap-1">

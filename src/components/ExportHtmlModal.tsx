@@ -59,7 +59,7 @@ export const ExportHtmlModal: React.FC<ExportHtmlModalProps> = ({ isOpen, onClos
     </div>
     <div class="max-w-7xl mx-auto px-4 py-3 flex justify-between items-center">
       <div class="font-syne text-xl font-extrabold text-white">Cogno <span class="text-[#38BDF8]">Kids®</span></div>
-      <a href="#oferta" class="bg-[#38BDF8] text-[#0B192C] font-syne font-extrabold px-4 py-2 rounded-xl text-xs">GARANTIR DESCONTO</a>
+      <a href="https://pay.kirvano.com/b604abf7-4440-4e01-8fcd-b428a3893cd7" class="bg-[#38BDF8] text-[#0B192C] font-syne font-extrabold px-4 py-2 rounded-xl text-xs">GARANTIR DESCONTO</a>
     </div>
   </header>
 
@@ -72,7 +72,7 @@ export const ExportHtmlModal: React.FC<ExportHtmlModalProps> = ({ isOpen, onClos
       </h1>
       <p class="text-sky-100/90 mt-4 text-base sm:text-lg">O Cogno Kids® é a plataforma de estímulo lúdico com ilustrações para colorir, jogos de raciocínio e desafios que desenvolvem a atenção, coordenação e lógica do seu filho sem o vício dos vídeos curtos.</p>
       <div class="mt-8">
-        <a href="#oferta" class="bg-gradient-to-r from-[#BAE6FD] via-[#38BDF8] to-[#0284C7] text-[#0B192C] font-syne font-extrabold text-lg px-8 py-4 rounded-2xl shadow-xl inline-block btn-shimmer">
+        <a href="https://pay.kirvano.com/b604abf7-4440-4e01-8fcd-b428a3893cd7" class="bg-gradient-to-r from-[#BAE6FD] via-[#38BDF8] to-[#0284C7] text-[#0B192C] font-syne font-extrabold text-lg px-8 py-4 rounded-2xl shadow-xl inline-block btn-shimmer">
           QUERO ESTIMULAR MEU FILHO AGORA →
         </a>
       </div>

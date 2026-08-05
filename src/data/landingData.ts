@@ -8,7 +8,7 @@ export const LANDING_COPY = {
     headlineHighlight: "Transforme o tempo de tela do seu filho(a) em superpoder cognitivo.",
     subheadline: "O Cogno Kids® é a plataforma de estímulo lúdico com ilustrações para colorir, jogos de raciocínio e desafios que desenvolvem a atenção, coordenação e lógica do seu filho sem o vício dos vídeos curtos.",
     ctaText: "QUERO ESTIMULAR MEU FILHO AGORA",
-    ctaSubtext: "⚡ Acesso Imediato • Pagamento Único de R$ 47 • Sem Mensalidade",
+    ctaSubtext: "⚡ Acesso Imediato • 2x de R$ 5,96 ou R$ 10,99 à vista • Sem Mensalidade",
     socialProofBadge: "Mais de 12.840 famílias já transformaram a rotina dos seus filhos nesta semana",
   },
   pasProblem: {
@@ -199,14 +199,14 @@ export const LANDING_COPY = {
       },
       {
         item: "Cogno Kids® Acesso Vitalício",
-        cost: "Apenas R$ 47,00 (Pagamento Único)",
+        cost: "2x de R$ 5,96 ou R$ 10,99 à vista",
         note: "Acesso ilimitado, todos os bônus e zero mensalidades",
         isHighlight: true
       }
     ],
     originalPrice: "R$ 197,00",
-    salePrice: "R$ 47,00",
-    installments: "ou 5x de R$ 10,15 no cartão",
+    salePrice: "R$ 10,99",
+    installments: "ou 2x de R$ 5,96 no cartão",
     bonuses: [
       {
         id: "bon1",
@@ -247,7 +247,7 @@ export const LANDING_COPY = {
     {
       id: "faq-2",
       question: "O produto possui alguma cobrança mensal?",
-      answer: "NÃO! O Cogno Kids® é de PAGAMENTO ÚNICO. Você paga apenas R$ 47,00 hoje e garante acesso vitalício a todo o conteúdo, incluindo todas as atualizações futuras e os bônus exclusivos. Nenhuma mensalidade será cobrada."
+      answer: "NÃO! O Cogno Kids® é de PAGAMENTO ÚNICO. Você paga apenas 2x de R$ 5,96 ou R$ 10,99 à vista e garante acesso vitalício a todo o conteúdo, incluindo todas as atualizações futuras e os bônus exclusivos. Nenhuma mensalidade será cobrada."
     },
     {
       id: "faq-3",

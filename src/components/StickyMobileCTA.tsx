@@ -34,10 +34,10 @@ export const StickyMobileCTA: React.FC<StickyMobileCTAProps> = ({ onOpenCheckout
             </span>
             <span className="text-xs text-sky-200/60 line-through">R$ 197</span>
           </div>
-          <span className="font-syne font-extrabold text-lg text-[#38BDF8] leading-none block">
-            R$ 47,00
+          <span className="font-syne font-extrabold text-base text-[#38BDF8] leading-none block">
+            R$ 10,99
           </span>
-          <span className="text-[10px] text-sky-100/80">Pagamento Único</span>
+          <span className="text-[10px] text-sky-100/80">ou 2x de R$ 5,96</span>
         </div>
 
         <button

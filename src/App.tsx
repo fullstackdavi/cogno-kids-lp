@@ -16,12 +16,14 @@ import { StickyMobileCTA } from './components/StickyMobileCTA';
 import { CheckoutModal } from './components/CheckoutModal';
 import { ExportHtmlModal } from './components/ExportHtmlModal';
 
+export const CHECKOUT_URL = 'https://pay.kirvano.com/b604abf7-4440-4e01-8fcd-b428a3893cd7';
+
 export default function App() {
   const [isCheckoutOpen, setIsCheckoutOpen] = useState(false);
   const [isExportOpen, setIsExportOpen] = useState(false);
 
   const handleOpenCheckout = () => {
-    setIsCheckoutOpen(true);
+    window.location.href = CHECKOUT_URL;
   };
 
   const handleScrollToDemo = () => {

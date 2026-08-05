@@ -23,7 +23,7 @@ export const FinalCTA: React.FC<FinalCTAProps> = ({ onOpenCheckout }) => {
         </h2>
 
         <p className="text-sky-100/90 text-base sm:text-lg max-w-2xl mx-auto">
-          Proporcione um desenvolvimento saudável, focado e divertido por apenas <strong className="text-[#38BDF8]">R$ 47 em pagamento único</strong>.
+          Proporcione um desenvolvimento saudável, focado e divertido por apenas <strong className="text-[#38BDF8]">2x de R$ 5,96 ou R$ 10,99 à vista</strong>.
         </p>
 
         {/* CTA Button */}

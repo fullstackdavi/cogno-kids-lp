@@ -154,7 +154,7 @@ export const OfferPricing: React.FC<OfferPricingProps> = ({ onOpenCheckout }) =>
                 className="w-full btn-shimmer bg-gradient-to-r from-[#BAE6FD] via-[#38BDF8] to-[#0284C7] hover:opacity-95 text-[#0B192C] font-syne font-extrabold text-lg sm:text-xl py-5 px-6 rounded-2xl shadow-2xl shadow-sky-500/30 flex items-center justify-center gap-3 transition-all transform hover:scale-[1.01] active:scale-[0.99]"
               >
                 <Lock className="w-5 h-5 text-[#0B192C]" />
-                <span>SIM! QUERO O COGNO KIDS® POR APENAS R$ 47</span>
+                <span>SIM! QUERO O COGNO KIDS® POR 2x DE R$ 5,96 OU R$ 10,99 À VISTA</span>
                 <ArrowRight className="w-6 h-6 text-[#0B192C] stroke-[3]" />
               </button>
 

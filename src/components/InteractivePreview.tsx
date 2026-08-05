@@ -322,7 +322,7 @@ export const InteractivePreview: React.FC<InteractivePreviewProps> = ({ onOpenCh
               onClick={onOpenCheckout}
               className="w-full sm:w-auto btn-shimmer bg-gradient-to-r from-[#38BDF8] to-[#0284C7] text-[#0B192C] font-syne font-extrabold text-xs sm:text-sm px-6 py-3 rounded-xl shadow-lg shadow-sky-500/20 text-nowrap"
             >
-              LIBERAR ACERVO COMPLETO POR R$ 47
+              LIBERAR ACERVO COMPLETO POR R$ 10,99
             </button>
           </div>
 
