@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cogno Kids® | Estimulação Cognitiva Infantil Divertida & Inteligente</title>
+  
+  <!-- Google Fonts: Poppins -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  
+  <!-- Tailwind CSS CDN para arquivo HTML Standalone -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            navy: '#060B18',
+            cyanAccent: '#00F0FF',
+            blueBrand: '#3B6FFF',
+            purpleBrand: '#8B3FFF'
+          },
+          fontFamily: {
+            syne: ['Poppins', 'sans-serif'],
+            sans: ['Poppins', 'sans-serif'],
+            poppins: ['Poppins', 'sans-serif']
+          }
+        }
+      }
+    }
+  </script>
+
+  <style>
+    * {
+      font-family: 'Poppins', sans-serif;
+    }
+    body {
+      background-color: #060B18;
+      color: #F3F4F6;
+      font-family: 'Poppins', sans-serif !important;
+      overflow-x: hidden;
+    }
+    h1, h2, h3, h4, h5, h6, button, input, select, textarea, .font-syne, .font-poppins {
+      font-family: 'Poppins', sans-serif !important;
+    }
+    .gradient-text {
+      background: linear-gradient(135deg, #00F0FF 0%, #3B6FFF 50%, #8B3FFF 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    .btn-shimmer {
+      position: relative;
+      overflow: hidden;
+    }
+    .btn-shimmer::after {
+      content: '';
+      position: absolute;
+      top: -50%;
+      left: -50%;
+      width: 200%;
+      height: 200%;
+      background: linear-gradient(60deg, transparent 30%, rgba(255,255,255,0.25) 50%, transparent 70%);
+      transform: rotate(30deg);
+      animation: shimmer 3s infinite;
+    }
+    @keyframes shimmer {
+      0% { transform: translateX(-100%); }
+      100% { transform: translateX(100%); }
+    }
+  </style>
+</head>
+<body class="bg-[#060B18] text-white">
+
+  <!-- TOP BAR NOTICE -->
+  <div class="bg-gradient-to-r from-[#3B6FFF] via-[#8B3FFF] to-[#3B6FFF] text-xs py-1.5 px-4 text-center font-bold">
+    🔥 OFERTA DE LANÇAMENTO: 76% DE DESCONTO + 3 BÔNUS EXCLUSIVOS HOJE!
+  </div>
+
+  <!-- HEADER -->
+  <header class="sticky top-0 z-40 bg-[#060B18]/90 backdrop-blur border-b border-cyan-500/10 py-3.5 px-4">
+    <div class="max-w-7xl mx-auto flex justify-between items-center">
+      <div class="flex items-center gap-2">
+        <div class="w-8 h-8 rounded-lg bg-gradient-to-br from-[#00F0FF] to-[#8B3FFF] flex items-center justify-center font-syne text-[#060B18] font-bold">CK</div>
+        <div class="font-syne text-xl font-extrabold">Cogno <span class="text-[#00F0FF]">Kids®</span></div>
+      </div>
+      <a href="#oferta" class="bg-[#00F0FF] text-[#060B18] font-syne font-extrabold px-4 py-2 rounded-xl text-xs hover:opacity-90">
+        GARANTIR DESCONTO
+      </a>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO SECTION (AIDA - ATENÇÃO) -->
+    <section class="py-16 md:py-24 text-center px-4 max-w-4xl mx-auto space-y-6">
+
+      <h1 class="font-syne text-3xl sm:text-4xl lg:text-[47px] font-extrabold leading-tight">
+        Seu filho hipnotizado na frente das telas assistindo conteúdos vazios?
+        <span class="block gradient-text mt-2">Transforme o tempo de tela do seu filho(a) em superpoder cognitivo.</span>
+      </h1>
+
+      <p class="text-gray-300 text-base sm:text-lg max-w-2xl mx-auto">
+        O Cogno Kids® é a plataforma de estímulo lúdico com ilustrações para colorir, jogos de raciocínio e desafios que desenvolvem a atenção, coordenação e lógica do seu filho sem o vício dos vídeos curtos.
+      </p>
+
+      <div class="pt-4 space-y-3">
+        <a href="#oferta" class="bg-gradient-to-r from-[#00F0FF] via-[#3B6FFF] to-[#8B3FFF] text-[#060B18] font-syne font-extrabold text-lg px-8 py-4 rounded-2xl shadow-xl inline-block btn-shimmer hover:scale-[1.02] transition-transform">
+          QUERO ESTIMULAR MEU FILHO AGORA →
+        </a>
+        <p class="text-xs text-cyan-300 font-medium">⚡ Acesso Imediato • Pagamento Único de R$ 47 • Sem Mensalidade</p>
+      </div>
+    </section>
+
+    <!-- PAS PROBLEM SECTION -->
+    <section class="py-16 bg-[#080E1E] border-y border-white/5 px-4">
+      <div class="max-w-5xl mx-auto text-center space-y-8">
+        <span class="bg-red-500/10 text-red-400 text-xs font-bold px-3 py-1 rounded-full uppercase border border-red-500/20">
+          O DILEMA PARENTAL MODERNO
+        </span>
+        <h2 class="font-syne text-2xl sm:text-4xl font-extrabold">A 'Cultura do Algoritmo' está sugando a atenção das crianças</h2>
+        
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6 text-left pt-4">
+          <div class="bg-[#0D162A] p-6 rounded-2xl border border-red-500/20 space-y-2">
+            <h3 class="font-syne font-bold text-lg text-white">Vídeos Hiper-estimulantes</h3>
+            <p class="text-sm text-gray-300">Acostumam o cérebro com dopamina barata reduzindo a paciência e a concentração.</p>
+          </div>
+          <div class="bg-[#0D162A] p-6 rounded-2xl border border-red-500/20 space-y-2">
+            <h3 class="font-syne font-bold text-lg text-white">Passividade Total</h3>
+            <p class="text-sm text-gray-300">Ficar apenas olhando a tela não exercita a coordenação motora nem o raciocínio.</p>
+          </div>
+          <div class="bg-[#0D162A] p-6 rounded-2xl border border-red-500/20 space-y-2">
+            <h3 class="font-syne font-bold text-lg text-white">Culpa dos Pais</h3>
+            <p class="text-sm text-gray-300">Sensação de ansiedade por não saber como estimular o filho em meio à rotina corrida.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- BENEFÍCIOS -->
+    <section class="py-16 px-4 max-w-6xl mx-auto space-y-10">
+      <div class="text-center space-y-2">
+        <h2 class="font-syne text-3xl font-extrabold">Benefícios Tangíveis do Cogno Kids®</h2>
+        <p class="text-gray-300 text-sm">Resultados visíveis no comportamento e no foco da criança</p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div class="bg-[#0B1428] p-6 rounded-2xl border border-white/10 space-y-2">
+          <span class="text-[#00F0FF] font-bold text-xs">01. FOCO SUSTENTADO</span>
+          <h3 class="font-syne font-bold text-lg">Atenção Prolongada</h3>
+          <p class="text-sm text-gray-300">Permite que a criança permaneça concentrada por 20 a 40 minutos em uma atividade calma.</p>
+        </div>
+        <div class="bg-[#0B1428] p-6 rounded-2xl border border-white/10 space-y-2">
+          <span class="text-[#3B6FFF] font-bold text-xs">02. PRÉ-ESCRITA</span>
+          <h3 class="font-syne font-bold text-lg">Coordenação Motora Fina</h3>
+          <p class="text-sm text-gray-300">Exercita a precisão do traço preparando para a escrita e domínio do lápis.</p>
+        </div>
+        <div class="bg-[#0B1428] p-6 rounded-2xl border border-white/10 space-y-2">
+          <span class="text-[#8B3FFF] font-bold text-xs">03. AUTONOMIA</span>
+          <h3 class="font-syne font-bold text-lg">Raciocínio & Lógica</h3>
+          <p class="text-sm text-gray-300">Enfrentar e resolver pequenos desafios fortalece a autoconfiança infantil.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- OFERTA E PREÇO -->
+    <section id="oferta" class="py-16 bg-[#080E1E] border-t border-cyan-500/20 px-4">
+      <div class="max-w-3xl mx-auto bg-[#0C152B] p-8 rounded-3xl border-2 border-[#00F0FF]/40 text-center space-y-6">
+        <span class="bg-[#00F0FF]/10 text-[#00F0FF] text-xs font-bold px-3 py-1 rounded-full uppercase">PACOTE VITALÍCIO DE LANÇAMENTO</span>
+        <h2 class="font-syne text-3xl font-extrabold">Garanta o Acesso sem Mensalidades</h2>
+        
+        <div class="bg-[#060B18] p-6 rounded-2xl border border-white/10 space-y-2">
+          <span class="text-xs text-gray-400">DE <span class="line-through text-red-400">R$ 197,00</span> POR APENAS:</span>
+          <div class="font-syne text-5xl font-extrabold text-[#00F0FF]">R$ 47,00</div>
+          <p class="text-xs text-gray-300">Pagamento Único • Acesso Vitalício • 3 Bônus Grátis</p>
+        </div>
+
+        <a href="#comprar" onclick="alert('Inscrição simulada! Acesso liberado no e-mail cadastrado.')" class="bg-gradient-to-r from-[#00F0FF] via-[#3B6FFF] to-[#8B3FFF] text-[#060B18] font-syne font-extrabold text-lg px-8 py-4 rounded-2xl shadow-xl inline-block btn-shimmer w-full">
+          COMPRAR AGORA POR R$ 47,00 →
+        </a>
+
+        <p class="text-xs text-gray-400">🔒 Garantia Incondicional de 7 Dias. Se não amar, devolvemos 100% do valor.</p>
+      </div>
+    </section>
+  </main>
+
+  <!-- RODAPÉ DA AGÊNCIA -->
+  <footer class="bg-[#040710] py-10 px-4 border-t border-white/10 text-center text-xs text-gray-400 space-y-4">
+    <div class="font-syne font-bold text-white text-base">Cogno Kids®</div>
+    <p class="max-w-2xl mx-auto text-[11px] text-gray-500">
+      Aviso Legal: O Cogno Kids® é uma plataforma educativa e lúdica de estímulo cognitivo e entretenimento infantil sadio, não substituindo acompanhamento médico ou neurológico especializado.
+    </p>
+    <p className="text-cyan-300 font-semibold">Desenvolvido com excelência por DS Company</p>
+    <p>© 2026 Cogno Kids® por DS Company. Todos os direitos reservados.</p>
+  </footer>
+
+</body>
+</html>
