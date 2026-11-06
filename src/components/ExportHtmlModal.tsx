@@ -73,7 +73,7 @@ export const ExportHtmlModal: React.FC<ExportHtmlModalProps> = ({ isOpen, onClos
       <p class="text-sky-100/90 mt-4 text-base sm:text-lg">O Cogno Kids® é a plataforma de estímulo lúdico com ilustrações para colorir, jogos de raciocínio e desafios que desenvolvem a atenção, coordenação e lógica do seu filho sem o vício dos vídeos curtos.</p>
       <div class="mt-8">
         <a href="https://pay.kirvano.com/b604abf7-4440-4e01-8fcd-b428a3893cd7" class="bg-gradient-to-r from-[#BAE6FD] via-[#38BDF8] to-[#0284C7] text-[#0B192C] font-syne font-extrabold text-lg px-8 py-4 rounded-2xl shadow-xl inline-block btn-shimmer">
-          QUERO ESTIMULAR MEU FILHO AGORA →
+          Quero o Cogno Kids ® para meu filho agora →
         </a>
       </div>
     </section>

@@ -76,7 +76,11 @@
 .animate-scroll-slow {
   display: flex;
   width: max-content;
-  animation: continuousScroll 20s linear infinite;
+  animation: continuousScroll 25s linear infinite;
+}
+
+.animate-scroll-slow:hover {
+  animation-play-state: paused;
 }
 
 .btn-shimmer {

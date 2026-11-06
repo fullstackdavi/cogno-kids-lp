@@ -1,5 +1,5 @@
 import React from 'react';
-import { ShieldCheck } from 'lucide-react';
+import { ShieldCheck, Instagram } from 'lucide-react';
 
 interface HeaderProps {
   onOpenExportHtml: () => void;
@@ -29,15 +29,27 @@ export const Header: React.FC<HeaderProps> = ({ onOpenExportHtml, onOpenCheckout
         </div>
 
         {/* Nav Badges & CTAs */}
-        <div className="flex items-center gap-3">
+        <div className="flex items-center gap-2 sm:gap-3">
           <div className="hidden lg:flex items-center gap-2 text-xs text-sky-100 bg-white/5 px-3 py-1.5 rounded-full border border-sky-400/20">
             <ShieldCheck className="w-4 h-4 text-[#38BDF8]" />
             <span>Garantia de 7 Dias • Acesso Vitalício</span>
           </div>
 
+          {/* Instagram Follow Button */}
+          <a
+            href="https://www.instagram.com/cognokidsbr_/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center gap-1.5 bg-gradient-to-r from-pink-500/20 via-purple-500/20 to-amber-500/20 hover:from-pink-500/35 hover:via-purple-500/35 hover:to-amber-500/35 text-white font-semibold text-xs px-3 py-2 rounded-xl border border-pink-400/40 transition-all shadow-sm group"
+            title="Seguir no Instagram @cognokidsbr_"
+          >
+            <Instagram className="w-4 h-4 text-pink-400 group-hover:scale-110 transition-transform" />
+            <span className="hidden xs:inline sm:inline">Instagram</span>
+          </a>
+
           <button
             onClick={onOpenCheckout}
-            className="btn-shimmer bg-gradient-to-r from-[#38BDF8] to-[#0284C7] hover:opacity-95 text-[#0B192C] font-syne font-extrabold text-xs sm:text-sm px-4 sm:px-5 py-2.5 rounded-xl shadow-lg shadow-sky-500/25 transition-all transform active:scale-95"
+            className="btn-shimmer bg-gradient-to-r from-[#38BDF8] to-[#0284C7] hover:opacity-95 text-[#0B192C] font-syne font-extrabold text-xs sm:text-sm px-3.5 sm:px-5 py-2.5 rounded-xl shadow-lg shadow-sky-500/25 transition-all transform active:scale-95"
           >
             Acessar Cogno Kids ®
           </button>

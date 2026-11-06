@@ -40,10 +40,12 @@ export const Benefits: React.FC = () => {
           {benefits.map((benefit) => (
             <div
               key={benefit.id}
-              className="bg-[#0F2847] p-7 rounded-3xl border border-sky-400/20 hover:border-[#38BDF8]/40 shadow-xl space-y-4 group transition-all duration-300 hover:-translate-y-1"
+              className="bg-[#0F2847]/90 backdrop-blur-md p-7 rounded-3xl border border-sky-400/20 hover:border-[#38BDF8]/60 shadow-xl hover:shadow-2xl hover:shadow-sky-500/15 space-y-4 group transition-all duration-300 hover:-translate-y-1.5 relative overflow-hidden"
             >
-              <div className="flex items-center justify-between">
-                <div className="w-14 h-14 rounded-2xl bg-white/5 border border-sky-300/20 flex items-center justify-center group-hover:scale-110 transition-transform">
+              <div className="absolute top-0 right-0 w-28 h-28 bg-[#38BDF8]/5 rounded-bl-full pointer-events-none group-hover:bg-[#38BDF8]/10 transition-colors" />
+
+              <div className="flex items-center justify-between relative z-10">
+                <div className="w-14 h-14 rounded-2xl bg-white/5 border border-sky-300/20 flex items-center justify-center group-hover:scale-110 group-hover:bg-[#38BDF8]/10 transition-all shadow-inner">
                   {getIcon(benefit.iconName)}
                 </div>
 
@@ -54,15 +56,15 @@ export const Benefits: React.FC = () => {
                 </span>
               </div>
 
-              <h3 className="font-syne text-xl font-bold text-white group-hover:text-[#38BDF8] transition-colors">
+              <h3 className="font-syne text-xl font-bold text-white group-hover:text-[#38BDF8] transition-colors relative z-10">
                 {benefit.title}
               </h3>
 
-              <p className="text-sm text-sky-100/80 leading-relaxed">
+              <p className="text-sm text-sky-100/80 leading-relaxed relative z-10">
                 {benefit.description}
               </p>
 
-              <div className="pt-2 border-t border-sky-400/10 flex items-center gap-2 text-xs text-sky-200/70">
+              <div className="pt-2 border-t border-sky-400/10 flex items-center gap-2 text-xs text-sky-200/70 relative z-10">
                 <CheckCircle2 className="w-4 h-4 text-[#38BDF8]" />
                 <span>Evolução contínua sem estresse</span>
               </div>

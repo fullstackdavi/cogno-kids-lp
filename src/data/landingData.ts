@@ -4,10 +4,27 @@ export const LANDING_COPY = {
   headerNotice: "🔥 OFERTA DE LANÇAMENTO: 76% DE DESCONTO + 3 BÔNUS EXCLUSIVOS HOJE!",
   hero: {
     badge: "⚡ TECNOLOGIA EDUCATIVA INFANTIL SEM MENSALIDADES",
-    headline: "Seu filho hipnotizado na frente das telas assistindo conteúdos vazios?",
-    headlineHighlight: "Transforme o tempo de tela do seu filho(a) em superpoder cognitivo.",
-    subheadline: "O Cogno Kids® é a plataforma de estímulo lúdico com ilustrações para colorir, jogos de raciocínio e desafios que desenvolvem a atenção, coordenação e lógica do seu filho sem o vício dos vídeos curtos.",
-    ctaText: "QUERO ESTIMULAR MEU FILHO AGORA",
+    headline: "Jogos que treinam a mente do seu filho",
+    headlineHighlight: "em 10 minutos por dia.",
+    variations: {
+      A: {
+        headline: "Jogos que treinam a mente do seu filho",
+        headlineHighlight: "em 10 minutos por dia.",
+        label: "Versão Principal (A)"
+      },
+      B: {
+        headline: "Troque o vídeo sem fim por",
+        headlineHighlight: "10 minutos de jogo que faz o seu filho pensar.",
+        label: "Variação B (A/B Test)"
+      },
+      C: {
+        headline: "Dez minutos de tela por dia que o seu filho joga com atenção,",
+        headlineHighlight: "e você sem culpa.",
+        label: "Variação C (A/B Test)"
+      }
+    },
+    subheadline: "Troque o ciclo passivo e hipnótico dos vídeos curtos por desafios interativos com início, meio e fim que desenvolvem o raciocínio, foco e coordenação do seu filho sem frustração.",
+    ctaText: "Quero o Cogno Kids ® para meu filho agora",
     ctaSubtext: "⚡ Acesso Imediato • 2x de R$ 5,96 ou R$ 10,99 à vista • Sem Mensalidade",
     socialProofBadge: "Mais de 12.840 famílias já transformaram a rotina dos seus filhos nesta semana",
   },
@@ -146,6 +163,29 @@ export const LANDING_COPY = {
       }
     ]
   },
+
+  socialProofs: [
+    {
+      id: "sp1",
+      title: "Depoimento de pais 1",
+      imageUrl: "https://i.postimg.cc/sxZPKV45/image.png"
+    },
+    {
+      id: "sp2",
+      title: "Depoimento de pais 2",
+      imageUrl: "https://i.postimg.cc/W4bH8kFm/image.png"
+    },
+    {
+      id: "sp3",
+      title: "Depoimento de pais 3",
+      imageUrl: "https://i.postimg.cc/fTnqFFtH/image.png"
+    },
+    {
+      id: "sp4",
+      title: "Depoimento de pais 4",
+      imageUrl: "https://i.postimg.cc/TYJ0sPXk/image.png"
+    }
+  ],
 
   testimonials: [
     {

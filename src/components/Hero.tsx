@@ -20,13 +20,12 @@ export const Hero: React.FC<HeroProps> = ({ onOpenCheckout, onScrollToDemo }) =>
           
           {/* Left Column: Copy & CTAs */}
           <div className="lg:col-span-7 space-y-6 text-center lg:text-left">
-            
 
             {/* Headline */}
-            <h1 className="font-syne text-3xl sm:text-4xl lg:text-[47px] font-extrabold leading-[1.12] tracking-tight text-white">
-              {LANDING_COPY.hero.headline}{' '}
+            <h1 className="font-syne text-3xl sm:text-4xl lg:text-[46px] font-extrabold leading-[1.14] tracking-tight text-white">
+              Jogos que treinam a mente do seu filho{' '}
               <span className="block mt-2 gradient-text">
-                {LANDING_COPY.hero.headlineHighlight}
+                em 10 minutos por dia.
               </span>
             </h1>
 
